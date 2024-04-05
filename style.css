@@ -57,6 +57,9 @@ h1 {
 }
 
 @media (max-width: 795px) {
+  body{
+    background-attachment: scroll;
+  }
   h1 {
     font-size: 40px;
   }
