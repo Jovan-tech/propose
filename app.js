@@ -5,9 +5,9 @@ const changeColor = document.body.style;
 propose = () => {
   parentElement.style.display = "none";
   showMessage.style.display = "block";
-  changeColor.background =
-    "linear-gradient(116.82deg, #ff94e7 0%, #27cbff 100%)";
+  document.body.style.backgroundImage = "url('DateMovie2.jpeg')"; 
 };
+
 
 // Animate Text with Anim JS
 var textWrapper = document.querySelector(".ml6 .letters");
